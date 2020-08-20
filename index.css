@@ -1,0 +1,43 @@
+#game{
+    width: 300px;
+    
+}
+.block{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #C30000 ;
+    cursor: pointer;
+    float: left;
+    border-radius: 8px;
+    box-sizing: border-box;
+    line-height: 100px;
+    text-align: center;
+    font-size: 90px;
+    color: #95C300; 
+
+   /* border-color:#95C300;*/ 
+}
+#polos {
+	border: none; 
+    background-color: #C30000; 
+    height: 5px; 
+	}
+
+#ident {
+		color: #C30000;
+	}
+
+	body {
+		background-image: url(/home/vlad/Загрузки/Terminator.png) ;
+	}
+			
+.obl{
+    display : flex;
+    justify-content: center;
+    margin: 100px;
+}
+#text{
+    display: flex;
+    justify-content: center;
+    color: #C30000
+}
